@@ -175,3 +175,63 @@ O vídeo não precisa parecer um comercial de televisão. Ele precisa parecer um
 Este caso complementa o padrão geral de UGC do repositório. As regras de movimento, identidade e controle de qualidade continuam importantes, mas a estrutura de 20–25 segundos, preço nos primeiros segundos, prova social e CTA com card não deve ser imposta aqui. O usuário decidiu priorizar um vídeo limpo, de descoberta, sem texto na tela e sem venda agressiva.
 
 A sequência do MINISO X15 Pro deve ser tratada como um exemplo de **UGC de descoberta em múltiplos clipes**, não como substituição universal do formato de anúncio completo.
+
+
+## Atualização posterior — processo confirmado com sucesso
+
+Depois do primeiro estudo de caso, o processo foi refinado e voltou a funcionar de forma consistente. A descoberta mais importante foi separar as referências por função, em vez de usar uma única imagem para controlar tudo.
+
+### Arquitetura atual das referências
+
+A referência facial serve exclusivamente para proteger a identidade do apresentador. Ela deve mostrar o rosto completamente visível, sem o produto cobrindo a face, e preservar cabelo, barba, bigode, piercing no nariz, brincos, formato do rosto, olhos, nariz, boca e mandíbula.
+
+A referência do produto serve exclusivamente para proteger o MINISO X15 Pro. Ela deve mostrar claramente o estojo e os componentes, com a forma, a borda transparente, a textura curva, a marca e as proporções corretas.
+
+A referência de cenário e roupa define o ambiente novo, o figurino e a composição visual. Ela não deve ser usada para substituir a identidade facial nem para redesenhar o produto.
+
+A instrução geral para a IA é:
+
+> **Use a referência facial para a identidade do apresentador, as imagens originais para o produto e a referência de cenário para roupa e ambiente. Não deixe uma referência alterar a função da outra.**
+
+### O que estava fazendo o fundo ficar igual
+
+Quando o vídeo anterior era enviado como referência, o gerador preservava não apenas o rosto e o produto, mas também o quarto, as cortinas, a roupa preta e o enquadramento. Por isso, uma variação que deveria mudar o cenário acabava parecendo praticamente o mesmo vídeo.
+
+A solução é não enviar o vídeo anterior quando a intenção for mudar o ambiente. Em vez disso, enviar uma imagem nova de cenário/roupa, uma referência facial próxima e as fotos reais do produto.
+
+### Processo atual confirmado
+
+1. Criar uma imagem de cenário nova com a roupa desejada e o produto correto.
+2. Criar uma segunda imagem aproximada do rosto, sem o produto cobrindo a face.
+3. Usar as fotos originais do produto como fonte exclusiva de verdade.
+4. Não enviar o vídeo anterior quando o cenário precisar mudar.
+5. Escrever um roteiro novo com gancho nos primeiros 3 segundos, identificação do produto no meio e CTA falado no final.
+6. Manter a ação do produto simples: já estar na mão, sem abrir, retirar, colocar na orelha ou executar várias ações.
+7. Conferir rosto, produto, roupa, cenário, fala e lip sync antes de publicar.
+
+### Estrutura de fala que passou a ser usada
+
+Para um clipe de 8 segundos, a fórmula curta é:
+
+- **0–3s — gancho:** “Você já viu um fone com esse formato?”
+- **3–5s — identificação:** “Esse é o MINISO X15 Pro.”
+- **5–8s — CTA:** “Deixei marcado no carrinho pra você conferir.”
+
+O texto deve ser falado pelo apresentador. Para manter o estilo limpo, não é necessário transformar o gancho e o CTA em texto sobreposto no vídeo.
+
+### Estado atual do método
+
+O processo está validado como método de produção, não apenas como uma tentativa isolada. Os vídeos estão funcionando porque cada parte difícil foi isolada:
+
+- identidade do rosto;
+- fidelidade do produto;
+- mudança de roupa;
+- mudança de cenário;
+- fala e estrutura de conversão;
+- edição e correção de áudio.
+
+O princípio consolidado é:
+
+> **Proteger separadamente o rosto e o produto, mudar o cenário por meio de uma nova referência visual, manter a ação simples e usar a fala para conduzir gancho, descoberta e CTA.**
+
+Essa atualização deve ser lida junto com o restante deste estudo de caso e com o `SKILL.md` principal.
