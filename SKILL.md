@@ -134,6 +134,10 @@ Decida por produto, com o usuario, e nao imponha:
   antes de entregar qualquer video.
 - `references/texto-fala-cta.md` - regras da locucao, o modo opcional com legenda queimada,
   texto do post, hashtags e etiquetas. Ler ao fechar fala e post.
+- `references/miniso-x15-pro-processo-validado.md` - estudo de caso completo do MINISO X15 Pro:
+  tentativas que falharam, decisões tomadas, uso de frame de continuidade, geração em clipes
+  curtos, montagem alternada e critérios para decidir quando simplificar a ação ou migrar para
+  foto real na edição. Ler quando o produto for pequeno, curvo ou instável na geração.
 
 <preflight>
 Perguntar antes de produzir (uma vez, em bloco):
