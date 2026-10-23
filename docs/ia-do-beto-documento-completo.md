@@ -298,3 +298,57 @@ Nenhum passou em todos os critérios.
 - **Falhas anteriores:** mãos extras, gigantes ou tortas (por isso, vídeos sem mãos); fone e relógio deformando; geração de áudio falhando; o Flow bloqueou quatro vezes por "pessoas famosas" quando o prompt dizia "idêntico".
 - **Troca de roupa:** só por estalo e corte seco, feita na edição, nunca puxando por cima da cabeça.
 - **Frase curta demais vira careta:** ocupar a boca com fala natural.
+- **Não soletrar siglas** ("poví" em vez de P-O-V).
+- **Regra de entrega:** mandar sempre o prompt completo, nunca só o trecho que mudou. Nos prompts para outras IAs, regras como orientação e não como "proibido", porque elas levam ao pé da letra e travam.
+
+---
+
+## 13. Correções que fizemos no caminho
+
+- **Horário:** eu o apresentei como forte e depois rebaixei para hipótese, porque não havia nenhum vídeo do Beto sem produto na janela.
+- **Você é motorista de app:** eu disse que você nunca tinha me contado isso e retirei a frase do resumo. Estava errado, e a frase estava certa.
+- **"Responder em 30 minutos":** era meu e não tinha fonte. Retirado.
+- **O critério "165 views":** era arbitrário (164 mais 1). Agora comparamos com a mesma idade e os critérios da seção 10.
+- **Kalodata:** "mi" é 10 mil, não milhão.
+- **Os 46% do MINISO de 15/10** eram amostra pequena (14 views) e caíram para 32% quando a amostra cresceu.
+- **Recorde:** foi de 266 para 267 e depois 268 (barba e o fone de 13/10 empatam). Por isso a fala não usa mais o número do recorde.
+- **Respostas de outras IAs:** aproveitamos a margem de erro da amostra, a crítica ao "tem alguma coisa errada" e a recomendação de não chamar a conta de penalizada. Rejeitamos a mistura de hipóteses como se fossem fatos e os horários dados sem base.
+
+---
+
+## 14. Pendências e próximos passos
+
+1. Gerar o vídeo no Flow com o prompt da seção 8, editar (texto, loop, capa) e postar às 22:45 de Brasília.
+2. Registrar a hora real e ler o vídeo em 24h, 48h e 5 dias.
+3. Conferir o painel comercial do TikTok Shop (cliques, pedidos, comissão) e fazer o diagnóstico de funil que está pendente desde 08/10: a tag do produto abre a oferta certa?
+4. Decidir nicho (carro ou outro) e produto, com mídia real autorizada e amostra, se existir.
+5. Confirmar se o rótulo de IA está ligado nos posts anteriores.
+6. Decidir o que fazer com os vídeos de anúncio antigos (por exemplo, "Só eu"), se a exposição pesar.
+7. Montar a parte 2 do plano de experimentos.
+8. Esclarecer o fuso das horas de atividade dos seguidores.
+
+**Você não precisa postar hoje.** O teste pode rodar amanhã ou na semana que vem. Se a vergonha continuar pesando, vale pensar se o projeto precisa do seu rosto ou de outro formato. Essa escolha é sua.
+
+---
+
+## 15. Registro por vídeo (copiar e preencher)
+
+```text
+Data e hora de Brasília:
+Vídeo / conceito:
+Duração:
+Produto marcado? (sim/não)
+Rótulo de IA ligado? (sim/não)
+Janela de 22:45 a 00:37? (sim/não)
+Views em 24h:
+Views em 48h:
+Views em 5 dias:
+Público no 2º e 3º segundo:
+Conclusão:
+Tempo médio assistido:
+Likes / comentários / compartilhamentos:
+Seguidores novos:
+Cliques no produto / pedidos (quando houver):
+Houve live ou segue-de-volta no dia? (sim/não)
+Observações (comentários relevantes, falhas de geração):
+```
